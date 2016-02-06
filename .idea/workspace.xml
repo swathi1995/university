@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b18c4ed4-0cd6-4e72-87b6-c4fec688e9c8" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/register/templates/dash.html" afterPath="$PROJECT_DIR$/register/templates/dash.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/register/admin.py" afterPath="$PROJECT_DIR$/register/admin.py" />
     </list>
     <ignored path="myuniversity.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -95,12 +95,24 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="dash.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="dash.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/register/templates/dash.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.073051944">
+            <state vertical-scroll-proportion="-1.875">
               <caret line="3" column="85" selection-start-line="3" selection-start-column="85" selection-end-line="3" selection-end-column="85" />
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="admin.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/register/admin.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.234375">
+              <caret line="10" column="0" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+              <folding>
+                <element signature="e#0#32#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -110,16 +122,6 @@
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
               <caret line="138" column="26" selection-start-line="138" selection-start-column="26" selection-end-line="138" selection-end-column="26" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="base.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/register/templates/base.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-17.0">
-              <caret line="57" column="33" selection-start-line="57" selection-start-column="33" selection-end-line="57" selection-end-column="33" />
               <folding />
             </state>
           </provider>
@@ -162,6 +164,7 @@
         <option value="$PROJECT_DIR$/register/views.py" />
         <option value="$PROJECT_DIR$/register/urls.py" />
         <option value="$PROJECT_DIR$/register/templates/dash.html" />
+        <option value="$PROJECT_DIR$/register/admin.py" />
       </list>
     </option>
   </component>
@@ -693,7 +696,7 @@
         <state vertical-scroll-proportion="0.0">
           <caret line="3" column="7" selection-start-line="3" selection-start-column="7" selection-end-line="3" selection-end-column="7" />
           <folding>
-            <element signature="e#185#209#0#HTML" expanded="true" />
+            <element signature="e#185#209#0#HTML" expanded="false" />
             <element signature="e#945#1086#0#HTML" expanded="false" />
           </folding>
         </state>
@@ -757,14 +760,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/register/admin.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/register/migrations/__init__.py">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -786,7 +781,7 @@
         <state vertical-scroll-proportion="-19.375">
           <caret line="33" column="100" selection-start-line="33" selection-start-column="100" selection-end-line="33" selection-end-column="100" />
           <folding>
-            <element signature="e#185#209#0#HTML" expanded="true" />
+            <element signature="e#185#209#0#HTML" expanded="false" />
             <element signature="e#945#1086#0#HTML" expanded="false" />
           </folding>
         </state>
@@ -888,9 +883,19 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/register/templates/dash.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.073051944">
+        <state vertical-scroll-proportion="-1.875">
           <caret line="3" column="85" selection-start-line="3" selection-start-column="85" selection-end-line="3" selection-end-column="85" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/register/admin.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.234375">
+          <caret line="10" column="0" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#32#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

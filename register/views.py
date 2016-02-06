@@ -21,3 +21,6 @@ class UserRegistrationView(AnonymousRequiredMixin, FormView):
 
 class UserRegistrationSuccessView(TemplateView):
     template_name = "success.html"
+
+class UserDashboardView(TemplateView):
+    template_name = "dash.html"

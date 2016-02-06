@@ -2,10 +2,10 @@
 {% load staticfiles %}
 {% load register_extras %}
 {% block body %}
- <font size="5"><font color="#00008b">Sign up here</font></font><br>
+ <font size="5"><font color="#00008b">Sign in here</font></font><br>
  <div class='col-md-8' style="padding-top:15px">
                 <form class="form-horizontal well" id="registerForm" method="POST"
-            	    enctype="multipart/form-data" action="{% url 'signup' %}">
+            	    enctype="multipart/form-data" action="{% url 'login' %}">
             	    <fieldset>
             	        {% csrf_token %} {% load tz %}
             	        {% for field in form.visible_fields %}
@@ -31,7 +31,7 @@
 
             					<div class="form-group">
             								 <div class="col-sm-offset-5">
-            										 <button type="submit" class="btn btn-primary">Sign up</button>
+            										 <button type="submit" class="btn btn-primary">sign in</button>
             								 </div> <!-- col-sm-offset-6 -->
             						 </div> <!-- form-group -->
 

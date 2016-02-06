@@ -1,5 +1,5 @@
 {% load staticfiles %}
-<html>
+<html xmlns="http://www.w3.org/1999/html">
 <head><title>university</title>
  <link rel="stylesheet" type="text/css"  href="{% static 'css/bootstrap.css' %}">
         <link rel="stylesheet" type="text/css" href="{% static 'css/font-awesome.min.css' %}">
@@ -26,10 +26,10 @@
     <!-- Collect the nav links, forms, and other content for toggling -->
     <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
       <ul class="nav navbar-nav">
-        <li class="label label-danger"><a href="#"><font color="black"><font size="4">Link</font> </font><span class="sr-only">(current)</span></a></li>
-        <li class="label label-primary"><a href="#"><font color="black">About</font></a></li>
+        <li class="label label-success"><a href="#"><font color="black"><font size="4">Link</font> </font><span class="sr-only">(current)</span></a></li>
+        <li class="label label-primary"><a href="#"><font color="black"><font size="4">About</font></font></a></li>
         <li class="dropdown">
-          <a href="#" class="dropdown-toggle label label-info" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"><font color="black">Events</font><span class="caret"></span></a>
+          <a href="#" class="dropdown-toggle label label-danger" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"><font color="black"><font size="4">Events</font></font><span class="caret"></span></a>
           <ul class="dropdown-menu">
             <li><a href="#">Action</a></li>
             <li><a href="#">Another action</a></li>
@@ -45,18 +45,19 @@
         <div class="form-group">
           <input type="text" class="form-control" placeholder="Search">
         </div>
-        <button type="submit" class="btn btn-label label-success">Submit</button>
+        <button type="submit" class="btn btn-label label-info"><font size="4"> Submit</font></button>
       </form>
       <ul class="nav navbar-nav navbar-right label label-warning">
-        <li><a href="#"><font color="black">Link</font></a></li>
+        <li><a href="#"><font color="black"><font size="4"> Link</font></font></a></li>
         <li class="dropdown">
-          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"><font color="black">User</font> <span class="caret"></span></a>
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"><font color="black"><font size="4"> User</font></font> <span class="caret"></span></a>
           <ul class="dropdown-menu">
             <li><a href="{% url 'signup' %}">Sign up</a></li>
             <li><a href="#">Sign out</a></li>
-            <!--<li><a href="#">Something else here</a></li>
-            <li role="separator" class="divider"></li>
-            <li><a href="#">Separated link</a></li>-->
+            <li><a href="{%  url 'login' %}">login</a></li>
+               <li><a href="{% url 'logout' %}">logout</a></li>-->
+            <!--<li role="separator" class="divider"></li>
+
           </ul>
         </li>
       </ul>
